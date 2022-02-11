@@ -1,8 +1,0 @@
-apply plugin: 'application'
-
-
-mainClassName = 'Server/app/src/main/java/Server/App.java'
-/*
-/c/Users/kevin/ProgsRevPaidTraining
-
- */

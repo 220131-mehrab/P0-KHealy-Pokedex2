@@ -4,11 +4,15 @@
 package Server;
 
 public class App {
-    public String getGreeting() {
-        return "Hello there World!";
-    }
 
-    public static void main(String[] args) {
-        System.out.println(new App().getGreeting());
+    public static String filename = new String("C:\\Users\\kevin\\PRPT\\Server\\app\\src\\main\\resources\\npd.csv");
+    //
+    //C:\Users\kevin\PRPT\Server\
+
+    public static void main(String[] args){
+        //String filename = args[0];
+        Pokedex pokedex = new Pokedex(filename);
+        Server server = new Server(8080);
+        server.run(pokedex);
     }
 }

@@ -15,6 +15,7 @@ public class Server {
             e.printStackTrace();
         }
     }
+
     public void run(Pokedex pokedex) {
         while (server.isBound()){
             try {
@@ -24,7 +25,7 @@ public class Server {
                 out.println();
                 out.println("<html><body><ul>");
                 for (String pokemon : pokedex.pokemons){
-                    out.println("<li>" + pokemon + "<li>");
+                    out.println("<li>" + pokemon + "</li>");
                 }
                 out.println("</ul></body></html>");
             } catch (IOException e) {

@@ -13,6 +13,6 @@ public class App {
         //String filename = args[0];
         Pokedex pokedex = new Pokedex(filename);
         Server server = new Server(8080);
-        server.run(pokedex);
+        //server.run(pokedex);
     }
 }

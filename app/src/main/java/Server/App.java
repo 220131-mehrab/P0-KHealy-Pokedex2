@@ -5,14 +5,17 @@ package Server;
 
 public class App {
 
-    public static String filename = new String("C:\\Users\\kevin\\PRPT\\Server\\app\\src\\main\\resources\\npd.csv");
+
+    private static String filename = new String("C:\\Users\\kevin\\PRPT\\Server\\app\\src\\main\\resources\\npd.csv");
     //
     //C:\Users\kevin\PRPT\Server\
+
 
     public static void main(String[] args){
         //String filename = args[0];
         Pokedex pokedex = new Pokedex(filename);
-        Server server = new Server(8080);
+        DexService dexService = new DexService(pokedex);
+        DexServer dexServer = new DexServer(dexService);
         //server.run(pokedex);
     }
 }

@@ -18,8 +18,6 @@ public class DexServer extends HttpServlet {
         } catch (LifecycleException e) {
             e.printStackTrace();
         }
-
-
     }
 
 }

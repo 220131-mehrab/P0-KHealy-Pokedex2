@@ -1,7 +1,9 @@
 package Server;
 
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -9,26 +11,33 @@ import java.util.Scanner;
 public class Pokedex {
 
     private List<String> pokemons;
-    private File file;
+    //private File file;
+    private InputStream file;
 
     public Pokedex(String filename) {
         this.pokemons = new ArrayList<>();
-        this.file = new File("src/main/Server/" + filename);
+
+        try {
+            //this.file = new FileInputStream("Server/app/src/main/java/Server/" + filename);
+            this.file = getClass().getClassLoader().getResourceAsStream(filename);
+        } catch (Exception e) {
+            System.out.println("Error");
+            e.printStackTrace();
+        }
         load();
     }
 
     private void load() {
-        try {
-            //File file = new File(filename);
-            Scanner scanner = new Scanner(this.file);
-            scanner.useDelimiter("\n");
-            while (scanner.hasNext()) {
-                 this.pokemons.add(scanner.next());
-            }
-        } catch (FileNotFoundException e) {
-            System.out.println("File not found");
-            e.printStackTrace();
-        }
 
+//File file = new File(filename);
+        Scanner scanner = new Scanner(this.file);
+        scanner.useDelimiter("\n");
+        while (scanner.hasNext()) {
+            this.pokemons.add(scanner.next());
+        }
+    }
+
+    public List<String> getPokemons() {
+        return pokemons;
     }
 }

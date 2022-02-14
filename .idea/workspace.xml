@@ -5,7 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e4a1a12-c9c3-4d2d-915a-acd17ef79381" name="Changes" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/app/src/main/java/Server/DexService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/Server/DexService.java" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/Server/DexServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/Server/DexService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/Server/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/Server/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/Server/Pokedex.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/Server/Pokedex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/Server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/Server/Server.java" afterDir="false" />
+>>>>>>> 881541f26aff3097be640acdaffd323f7153b4a6
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

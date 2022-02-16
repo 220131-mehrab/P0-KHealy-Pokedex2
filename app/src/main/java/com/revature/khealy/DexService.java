@@ -84,9 +84,17 @@ public class DexService extends HttpServlet {
             String result = dexRepository.getPokemon(inputFromUser);
             resp.getWriter().println(result);
         } else {
+            resp.getWriter().println("<!doctype html>" +
+                "                 <html>" +
+                "                 <head>" +
+                "                   <title>com.revature.KHealy.p0</title>" +
+                "                   <meta charset='UTF-8' />" +
+                "                 </head>" +
+                "                <body>");
             for (String pokemon: dexRepository.getPokemons()){
-                resp.getWriter().println(pokemon);
+                resp.getWriter().println(pokemon+ "<br/>");
             }
+            resp.getWriter().println("</body>");
         }
     }
 }

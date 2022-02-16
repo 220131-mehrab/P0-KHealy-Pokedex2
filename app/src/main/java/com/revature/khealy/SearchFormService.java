@@ -10,7 +10,7 @@ import java.io.IOException;
 public class SearchFormService extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        String HtmlForm =
+        String HTMLForm =
             "!DOCTYPE HTML\n" +
             "<head>  \n" +
             "    <title>Search Pokedex</title>\n" +

@@ -25,14 +25,15 @@ public class App {
         //String filename = args[0];
         Pokedex pokedex = new Pokedex(filename);
         DexService dexService = new DexService(pokedex);
-        DexServer dexServer = new DexServer(dexService);
+        SearchFormService sfService = new SearchFormService();
 
         Tomcat server = new Tomcat();
         server.getConnector();
         server.addContext("",null);
-        server.addServlet("","dexServlet", (Servlet) dexService).addMapping("/");
+        server.addServlet("","dexServlet", (Servlet) dexService).addMapping("/pokemon");
+        server.addServlet("","SearchFormService", (Servlet) SearchFormService).addMapping("/search");
         try {
-            this.server.start();
+            server.start();
         } catch (
                 LifecycleException e) {
             e.printStackTrace();

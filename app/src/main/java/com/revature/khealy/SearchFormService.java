@@ -11,7 +11,8 @@ public class SearchFormService extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String HTMLForm =
-                "<Html>\n" +
+                "<!doctype html>\n" +
+                        "<Html>\n" +
                         "<head>  \n" +
             "    <title>Search Pokedex</title>\n" +
                         "</head>\n" +

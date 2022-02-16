@@ -31,7 +31,7 @@ public class App {
         server.getConnector();
         server.addContext("",null);
         server.addServlet("","dexServlet", (Servlet) dexService).addMapping("/pokemon");
-        server.addServlet("","SearchFormService", (Servlet) SearchFormService).addMapping("/search");
+        server.addServlet("","SearchFormService", (Servlet) sfService).addMapping("/search");
         try {
             server.start();
         } catch (

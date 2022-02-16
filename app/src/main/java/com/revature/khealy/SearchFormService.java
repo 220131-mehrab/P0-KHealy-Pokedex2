@@ -15,6 +15,7 @@ public class SearchFormService extends HttpServlet {
              "<Html>\n" +
              "<head>  \n" +
              "    <title>Search Pokedex</title>\n" +
+             "    <meta charset='UTF-8' />" +
              "</head>\n" +
              "    <body>\n" +
              "        <form action='/pokemon' method='get'>\n" +

@@ -1,4 +1,4 @@
-package Server;
+package com.revature.khealy;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.ServletResponse;
@@ -77,8 +77,16 @@ public class DexService extends HttpServlet {
      */
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        for (String pokemon: dexRepository.getPokemons()){
-            resp.getWriter().println(pokemon);
+        String inputFromUser;
+        inputFromUser = req.getParameter("searchName");
+
+        if (inputFromUser != null){
+            String result = dexRepository.getPokemon(inputFromUser);
+            resp.getWriter().println(result);
+        } else {
+            for (String pokemon: dexRepository.getPokemons()){
+                resp.getWriter().println(pokemon);
+            }
         }
     }
 }

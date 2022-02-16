@@ -1,4 +1,4 @@
-package Server;
+package com.revature.khealy;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -13,6 +13,7 @@ public class Pokedex {
     private List<String> pokemons;
     //private File file;
     private InputStream file;
+
 
     public Pokedex(String filename) {
         this.pokemons = new ArrayList<>();
@@ -29,7 +30,7 @@ public class Pokedex {
 
     private void load() {
 
-//File file = new File(filename);
+        //File file = new File(filename);
         Scanner scanner = new Scanner(this.file);
         scanner.useDelimiter("\n");
         while (scanner.hasNext()) {
@@ -37,7 +38,20 @@ public class Pokedex {
         }
     }
 
+
     public List<String> getPokemons() {
         return pokemons;
+    }
+
+    public String getPokemon(String PokeName) {
+        boolean found = false;
+        String result = "";
+        for (String pokemon : this.pokemons){
+            if (pokemon.contains(PokeName) && !found){
+                result = pokemon;
+                found = true;
+            }
+        }
+        return result;
     }
 }

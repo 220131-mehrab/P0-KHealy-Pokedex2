@@ -5,21 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7067a433-0d7a-486c-b8db-db870b05f258" name="Changes" comment="Trying HTML form.">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/revature/khealy/SearchFormService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/revature/khealy/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/test/test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/Server/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/revature/khealy/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/Server/DexServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/revature/khealy/DexServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/Server/DexService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/revature/khealy/DexService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/Server/Pokedex.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/revature/khealy/Pokedex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/Server/Server.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/Server/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/revature/khealy/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/revature/khealy/DexServer.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

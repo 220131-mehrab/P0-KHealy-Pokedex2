@@ -91,8 +91,9 @@ public class DexService extends HttpServlet {
                 "                   <meta charset='UTF-8' />" +
                 "                 </head>" +
                 "                <body>");
-            for (String pokemon: dexRepository.getPokemons()){
-                resp.getWriter().println(pokemon+ "<br/>");
+            for (String pokemon : dexRepository.pokemonsAsStrings){
+//                resp.getWriter().println(toString(pokemon)+ "<br/>");
+                resp.getWriter().println(pokemon + "<br/>");
             }
             resp.getWriter().println("</body>");
         }

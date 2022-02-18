@@ -58,7 +58,7 @@ public class Pokedex {
             //ID,Number,Name,Type1,Type2,Total,HP,Atk,Def,SpAtk,SpDef,Spd,Species,Height,Weight
             Pokemon pokemon = new Pokemon.Builder()
                     .setID(Integer.parseInt(tempArray[0]))
-                    .setNumber(Integer.parseInt(tempArray[1]))
+                    .setNumber(tempArray[1])
                     .setName(tempArray[2])
                     .setType1(tempArray[3])
                     .setType2(tempArray[4])

@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-<<<<<<< HEAD
     <list default="true" id="7067a433-0d7a-486c-b8db-db870b05f258" name="Changes" comment="Assertion of tempPokemon1 is equal to its string." />
-=======
-    <list default="true" id="7067a433-0d7a-486c-b8db-db870b05f258" name="Changes" comment="Trying HTML form.">
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/revature/khealy/SearchFormService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/revature/khealy/SearchFormService.java" afterDir="false" />
-    </list>
->>>>>>> 5e62c32444040de5e4ec8caf1f17705dea5550fe
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

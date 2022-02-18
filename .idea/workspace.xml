@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7067a433-0d7a-486c-b8db-db870b05f258" name="Changes" comment="Assertion of tempPokemon1 is equal to its string.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/revature/khealy/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/revature/khealy/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/revature/khealy/Pokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/revature/khealy/Pokemon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/test/java/com/revature/khealy/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/revature/khealy/AppTest.java" afterDir="false" />
@@ -23,6 +22,9 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
@@ -77,7 +79,7 @@
       <recent name="Server" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="JUnit.AppTest.DexServiceTest">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.revature.khealy.App" />
       <module name="main" />
@@ -109,8 +111,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App" />
         <item itemvalue="JUnit.AppTest.DexServiceTest" />
+        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>

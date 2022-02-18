@@ -2,7 +2,7 @@ package com.revature.khealy;
 
 public class Pokemon {
     int ID;
-    int Number;
+    String Number;
     String Name;
     String Type1;
     String Type2;
@@ -14,8 +14,8 @@ public class Pokemon {
     int SpDef;
     int Spd;
     String Species;
-    int Height;
-    int Weight;
+    String Height;
+    String Weight;
 
     public Pokemon(Builder builder){
 
@@ -135,7 +135,7 @@ public class Pokemon {
         return ID;
     }
 
-    public int getNumber() {
+    public String getNumber() {
         return Number;
     }
 
@@ -183,11 +183,11 @@ public class Pokemon {
         return Species;
     }
 
-    public int getHeight() {
+    public String getHeight() {
         return Height;
     }
 
-    public int getWeight() {
+    public String getWeight() {
         return Weight;
     }
 

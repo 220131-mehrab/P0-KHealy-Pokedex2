@@ -14,13 +14,9 @@ import org.apache.catalina.startup.Tomcat;
 
 
 public class App {
-
-
-    private static String filename = new String("npd.csv");
+    protected static String filename = new String("npd.csv");
     //"C:\\Users\\kevin\\PRPT\\Server\\app\\src\\main\\resources\\npd.csv"
     //C:\Users\kevin\PRPT\Server\
-
-
 
     public static void main(String[] args){
         //String filename = args[0];

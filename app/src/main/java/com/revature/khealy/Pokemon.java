@@ -34,7 +34,7 @@ public class Pokemon {
 
     public static class Builder {
         int ID;
-        int Number;
+        String Number;
         String Name;
         String Type1;
         String Type2;
@@ -55,7 +55,7 @@ public class Pokemon {
             return this;
         }
 
-        public Builder setNumber(int number) {
+        public Builder setNumber(String number) {
             this.Number = number;
             return this;
         }
